@@ -1,0 +1,49 @@
+[root@kindle us]# cat /proc/meminfo
+MemTotal:         256180 kB
+MemFree:           26720 kB
+Buffers:           15544 kB
+Cached:            72124 kB
+SwapCached:            0 kB
+Active:            94500 kB
+Inactive:         102596 kB
+Active(anon):      52632 kB
+Inactive(anon):    72240 kB
+Active(file):      41868 kB
+Inactive(file):    30356 kB
+Unevictable:           0 kB
+Mlocked:               0 kB
+SwapTotal:             0 kB
+SwapFree:              0 kB
+Dirty:                 0 kB
+Writeback:             0 kB
+AnonPages:        109456 kB
+Mapped:            34136 kB
+Slab:              10628 kB
+SReclaimable:       4948 kB
+SUnreclaim:         5680 kB
+PageTables:         2112 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:      128088 kB
+Committed_AS:     545800 kB
+VmallocTotal:     581632 kB
+VmallocUsed:        2584 kB
+VmallocChunk:     576136 kB
+=================================
+Total RAM:              262144 kB
+Free                     28968 kB
+reserved                 15860 kB
+slab                     10628 kB
+shared page count        39868
+shared pages             55444 kB
+swap cached                  0
+dma reserved              9896 kB
+mapped shared count      26067
+mapped shared            18644 kB
+total user              143592 kB
+RSS sum by tasks         61965
+RSS sum by page stats    61965
+user cache               34136 kB
+kernel cache             53532 kB
+kernel total             28600 kB (Reserved + Slab + PageTables + Dirty)
