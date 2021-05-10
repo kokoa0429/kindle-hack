@@ -1,0 +1,182 @@
+[    18.214] 
+X.Org X Server 1.8.2
+Release Date: 2010-07-01
+[    18.215] X Protocol Version 11, Revision 0
+[    18.215] Build Operating System: Linux 2.6.31-rt11-lab126 arm 
+[    18.215] Current Operating System: Linux kindle 2.6.31-rt11-lab126 #1 Tue Jun 23 04:29:16 PDT 2015 armv7l
+[    18.215] Kernel command line: consoleblank=0 rootwait ro ip=off root=/dev/mmcblk0p1 quiet eink=fslepdc video=mxcepdcfb:E60,bpp=8,x_mem=4M mem=256M user_debug=0x1 console=ttymxc0,115200
+[    18.215] Build Date: 23 June 2015  04:10:05AM
+[    18.215]  
+[    18.217] Current version of pixman: 0.18.4
+[    18.217] 	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+[    18.218] Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+[    18.219] (==) Log file: "/var/log/Xorg.0.log", Time: Sun May  9 04:21:11 2021
+[    18.224] (==) Using config file: "/etc/xorg.conf"
+[    18.236] (==) ServerLayout "Kindle"
+[    18.237] (**) |-->Screen "Kscreen" (0)
+[    18.237] (**) |   |-->Monitor "EinkPanel"
+[    18.243] (**) |   |-->Device "eink"
+[    18.243] (**) |-->Input Device "multitouch"
+[    18.243] (**) Option "DontVTSwitch" "true"
+[    18.243] (**) Option "DontZap" "true"
+[    18.243] (**) Option "DontZoom" "true"
+[    18.243] (**) Option "BlankTime" "0"
+[    18.243] (**) Option "StandbyTime" "0"
+[    18.243] (**) Option "SuspendTime" "0"
+[    18.243] (**) Option "OffTime" "0"
+[    18.243] (**) Option "NoPM" "true"
+[    18.243] (**) Option "IgnoreABI" "true"
+[    18.243] (**) Ignoring ABI Version
+[    18.244] (==) Not automatically adding devices
+[    18.244] (==) Not automatically enabling devices
+[    18.246] (WW) The directory "/usr/share/fonts/X11/TTF/" does not exist.
+[    18.246] 	Entry deleted from font path.
+[    18.246] (WW) The directory "/usr/share/fonts/X11/OTF/" does not exist.
+[    18.246] 	Entry deleted from font path.
+[    18.246] (WW) The directory "/usr/share/fonts/X11/Type1/" does not exist.
+[    18.246] 	Entry deleted from font path.
+[    18.246] (WW) The directory "/usr/share/fonts/X11/100dpi/" does not exist.
+[    18.246] 	Entry deleted from font path.
+[    18.246] (WW) The directory "/usr/share/fonts/X11/75dpi/" does not exist.
+[    18.246] 	Entry deleted from font path.
+[    18.246] (==) FontPath set to:
+	/usr/share/fonts/X11/misc/
+[    18.246] (==) ModulePath set to "/usr/lib/xorg/modules"
+[    18.247] (II) No default mouse found, adding one
+[    18.247] (**) |-->Input Device "<default pointer>"
+[    18.247] (==) |-->Input Device "<default keyboard>"
+[    18.247] (==) The core keyboard device wasn't specified explicitly in the layout.
+	Using the default keyboard configuration.
+[    18.247] (II) Loader magic: 0x16d288
+[    18.247] (II) Module ABI versions:
+[    18.247] 	X.Org ANSI C Emulation: 0.4
+[    18.247] 	X.Org Video Driver: 7.0
+[    18.247] 	X.Org XInput driver : 9.0
+[    18.248] 	X.Org Server Extension : 3.0
+[    18.250] (II) LoadModule: "extmod"
+[    18.273] (II) Loading /usr/lib/xorg/modules/extensions/libextmod.so
+[    18.277] (II) Module extmod: vendor="X.Org Foundation"
+[    18.278] 	compiled for 1.8.2, module version = 1.0.0
+[    18.278] 	Module class: X.Org Server Extension
+[    18.278] 	ABI class: X.Org Server Extension, version 3.0
+[    18.278] (II) Loading extension XVideo
+[    18.278] (II) Loading extension XVideo-MotionCompensation
+[    18.278] (II) LoadModule: "imx"
+[    18.279] (II) Loading /usr/lib/xorg/modules/drivers/imx_drv.so
+[    18.282] (II) Module imx: vendor="X.Org Foundation"
+[    18.282] 	compiled for 1.8.2, module version = 0.2.0
+[    18.282] 	ABI class: X.Org Video Driver, version 7.0
+[    18.283] (II) LoadModule: "multitouch"
+[    18.284] (II) Loading /usr/lib/xorg/modules/input/multitouch.so
+[    18.287] (II) Module multitouch: vendor="X.Org Foundation"
+[    18.287] 	compiled for 1.8.2, module version = 0.1.0
+[    18.287] 	Module class: X.Org XInput Driver
+[    18.287] 	ABI class: X.Org XInput driver, version 9.0
+[    18.288] (II) LoadModule: "mouse"
+[    18.289] (WW) Warning, couldn't open module mouse
+[    18.289] (II) UnloadModule: "mouse"
+[    18.290] (EE) Failed to load module "mouse" (module does not exist, 0)
+[    18.290] (II) LoadModule: "kbd"
+[    18.291] (WW) Warning, couldn't open module kbd
+[    18.291] (II) UnloadModule: "kbd"
+[    18.291] (EE) Failed to load module "kbd" (module does not exist, 0)
+[    18.291] (II) imx: Driver for Freescale IMX processors: i.MX5x Z160
+[    18.291] (WW) Falling back to old probe method for imx
+[    18.292] (II) Loading sub module "fbdevhw"
+[    18.293] (II) LoadModule: "fbdevhw"
+[    18.293] (II) Loading /usr/lib/xorg/modules/linux/libfbdevhw.so
+[    18.303] (II) Module fbdevhw: vendor="X.Org Foundation"
+[    18.304] 	compiled for 1.8.2, module version = 0.0.2
+[    18.304] 	ABI class: X.Org Video Driver, version 7.0
+[    18.304] (II) Add screen 0x185b50
+[    18.304] (II) imx(0): using /dev/fb0
+[    18.308] (WW) VGA arbiter: cannot open kernel arbiter, no multi-card support
+[    18.308] (II) Running in FRAMEBUFFER Mode
+[    18.308] (II) Loading sub module "fb"
+[    18.308] (II) LoadModule: "fb"
+[    18.308] (II) Loading /usr/lib/xorg/modules/libfb.so
+[    18.321] (II) Module fb: vendor="X.Org Foundation"
+[    18.321] 	compiled for 1.8.2, module version = 1.0.0
+[    18.321] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[    18.321] (**) imx(0): rotating EPDC frame buffer output counter-clockwise
+[    18.321] (==) imx(0): Depth 8, (==) framebuffer bpp 8
+[    18.321] (**) imx(0): Default visual is StaticGray
+[    18.322] (==) imx(0): Using gamma correction (1.0, 1.0, 1.0)
+[    18.323] (II) imx(0): hardware: mxc_epdc_fb (video memory: 4608kB)
+[    18.323] (**) imx(0): Option "fbdev" "/dev/fb0"
+[    18.323] (**) imx(0): Option "FormatEPDC" "Y8"
+[    18.323] (**) imx(0): Option "NoAccel" "true"
+[    18.323] (**) imx(0): Option "Rotate" "CCW"
+[    18.323] (II) imx(0): checking modes against framebuffer device...
+[    18.323] (II) imx(0): checking modes against monitor...
+[    18.324] (--) imx(0): Virtual size is 758x1024 (pitch 758)
+[    18.324] (**) imx(0):  Built-in mode "current": 0.0 MHz, 0.0 kHz, 0.0 Hz
+[    18.324] (II) imx(0): Modeline "current"x0.0    0.03  758 834 846 858  1024 1029 1031 1035 -hsync -vsync -csync (0.0 kHz)
+[    18.324] (**) imx(0): Display dimensions: (91, 122) mm
+[    18.324] (**) imx(0): DPI set to (211, 213)
+[    18.327] (II) imx(0): Pitch updated to 768 after ModeInit
+[    18.342] (II) imx(0): No acceleration in use
+[    18.343] (**) imx(0): Option "BackingStore" "true"
+[    18.343] (++) imx(0): Backing store enabled
+[    18.356] (==) RandR enabled
+[    18.357] (II) Initializing built-in extension Generic Event Extension
+[    18.357] (II) Initializing built-in extension SHAPE
+[    18.357] (II) Initializing built-in extension MIT-SHM
+[    18.357] (II) Initializing built-in extension XInputExtension
+[    18.357] (II) Initializing built-in extension XTEST
+[    18.357] (II) Initializing built-in extension BIG-REQUESTS
+[    18.357] (II) Initializing built-in extension SYNC
+[    18.357] (II) Initializing built-in extension XKEYBOARD
+[    18.357] (II) Initializing built-in extension XC-MISC
+[    18.357] (II) Initializing built-in extension XFIXES
+[    18.357] (II) Initializing built-in extension RENDER
+[    18.357] (II) Initializing built-in extension RANDR
+[    18.357] (II) Initializing built-in extension COMPOSITE
+[    18.357] (II) Initializing built-in extension DAMAGE
+[    21.086] (**) Option "ScreenShot" "1"
+[    21.086] (II) Option VScrollFrac : 0.050000
+[    21.086] (II) Option HScrollFrac : 0.050000
+[    21.086] (II) Option VSwipeFrac : 0.075000
+[    21.086] (II) Option HSwipeFrac : 0.100000
+[    21.086] (II) Option ScaleFrac : 0.025000
+[    21.086] (II) Option RotFrac : 0.050000
+[    21.086] (II) Option HoldTime : 500
+[    21.086] (II) Option HoldFrac : 0.020000
+[    21.086] (II) Option VSwipeAngle : 30
+[    21.086] (II) Option Screenshot : 1
+[    21.086] (II) Option size x mm: 90.599998
+[    21.086] (II) Option size y mm: 122.400002
+[    21.086] (II) Option GripSuppr : 0
+[    21.086] (II) Option Keypad : (null)
+[    21.086] (II) Option Debug : 0
+[    21.086] (**) Option "AlwaysCore"
+[    21.086] (**) Option "CorePointer"
+[    21.087] (**) multitouch: always reports core events
+[    21.087] (II) XINPUT: Adding extended input device "multitouch" (type: TOUCHPAD)
+[    21.087] (II) multitouch: devname: cyttsp
+[    21.087] (II) multitouch: devid: 0 0 0
+[    21.087] (II) multitouch: caps: mtdata
+[    21.087] (II) multitouch: 5: min: 0 max: 758
+[    21.087] (II) multitouch: 6: min: 0 max: 1024
+[    21.087] (II) multitouch: 9: min: 0 max: 16
+[    21.089] (**) Option "AccelerationScheme" "none"
+[    21.089] (**) multitouch: (accel) selected scheme none/0
+[    21.089] (**) Option "AccelerationThreshold" "1"
+[    21.089] (**) multitouch: (accel) acceleration factor: 2.000
+[    21.089] (**) multitouch: (accel) acceleration threshold: 1
+[    21.089] (**) Option "xkb_rules" "evdev"
+[    21.089] (**) Option "xkb_model" "evdev"
+[    21.089] (**) Option "xkb_layout" "us"
+[    21.293] (II) LoadModule: "mouse"
+[    21.294] (WW) Warning, couldn't open module mouse
+[    21.294] (II) UnloadModule: "mouse"
+[    21.294] (EE) Failed to load module "mouse" (module does not exist, 0)
+[    21.294] (EE) No input driver matching `mouse'
+[    21.294] (II) LoadModule: "kbd"
+[    21.295] (WW) Warning, couldn't open module kbd
+[    21.295] (II) UnloadModule: "kbd"
+[    21.295] (EE) Failed to load module "kbd" (module does not exist, 0)
+[    21.295] (EE) No input driver matching `kbd'
